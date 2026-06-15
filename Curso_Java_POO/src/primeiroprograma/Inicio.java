@@ -72,11 +72,21 @@ public class Inicio {
 
 //----------------------------Exercício 5 - Operador Ternário-------------------------------------------------------------------------
 
+        /*
         Scanner voto = new Scanner(System.in);
         System.out.println("Digite sua idade: ");
         int idade = voto.nextInt();
         String pd = (idade >= 18)?"Pode votar":"Não pode votar";
         System.out.println(pd);
+        */
+
+        int v0 = 3;
+        int v1 = v0++;
+        int v2 = ++v1;
+        v1 += v0;
+        v2 += --v1;
+        System.out.println(v0 );
+
 
     }
 
