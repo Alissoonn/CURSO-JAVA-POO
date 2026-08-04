@@ -132,11 +132,91 @@ public class EstruturaCondicional2 {
         Reprovado
          */
 
-        
+        /*
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Qual a sua nota? ");
+        int nota = sc.nextInt();
+        if (nota >=9){
+            System.out.println("Excelente");
+        }else if(nota >= 7){
+            System.out.println("Bom");
+        }else if (nota >= 5){
+            System.out.println("Recuperação");
+        }else{
+            System.out.println("Reprovado");
+        }
+        */
+//-------------------------------------------------------------------------------------------------------------
 
+        /*
+        Exercício 8
+        Leia a idade.
+        Informe a categoria:
+        Criança (até 12 anos)
+        Adolescente (13 a 17)
+        Adulto (18 a 59)
+        Idoso (60 ou mais)
+         */
 
+        /*
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite sua idade: ");
+        int idade = sc.nextInt();
 
+        if(idade <=12){
+            System.out.println("CRIANÇA");
+        }else if(idade <=17){
+            System.out.println("ADOLESCENTE");
+        }else if(idade >=18 && idade <=59){
+            System.out.println("ADULTO");
+        }else if(idade >=60){
+            System.out.println("IDOSO");
+        }
+        */
+//--------------------------------------------------------------------------------------------------------
 
+        /*
+        🔵 Nível 4 – Operadores lógicos
+        Exercício 9
+        Leia:
+        idade
+        possui carteira de motorista (true ou false)
+        Informe se a pessoa pode dirigir.
+        Dica: use o operador &&.
+         */
 
+        /*
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Qual sua idade? ");
+        int idade = sc.nextInt();
+        System.out.println("Possui carteira de motorista? ");
+        boolean motorista = sc.nextBoolean();
+
+        if(idade >= 18 && motorista == true){
+            System.out.println("Você pode dirigir");
+        } else{
+            System.out.println("Não pode dirigir");
+        }
+        */
+//-----------------------------------------------------------------------------------------------------------------------------
+
+        /*
+        Exercício 10
+        Leia um ano.
+        Verifique se ele é bissexto.
+        Dica: um ano é bissexto se:
+        é divisível por 4 e não por 100, ou
+        é divisível por 400.
+         */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Em que ano estamos? ");
+        int ano = sc.nextInt();
+
+        if(ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0){
+            System.out.println("Ano bissexto");
+        }else{
+            System.out.println("Não é bissexto");
+        }
     }
 }
