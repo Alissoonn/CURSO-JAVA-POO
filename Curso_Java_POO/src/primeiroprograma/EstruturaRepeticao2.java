@@ -258,17 +258,77 @@ public class EstruturaRepeticao2 {
         /*
                                     🔵 Nível 4 — While
             Exercício 13
-            Faça um programa que continue pedindo um número enquanto ele for positivo.
-            Quando o usuário digitar um número negativo, o programa termina.
-                     */
+            Crie um programa que mostre na tela os números de 1 até 10 utilizando apenas o while.
+            Saída esperada:
+            1
+            2
+            3
+            4
+            5
+            6
+            7
+            8
+            9
+            10
 
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Digite o primeiro numero: ");
-            int num1 = sc.nextInt();
 
-            while(num1 / 2 == 0){
-                System.out.println("Digite o segundo numero: ");
-            }
+
+        int i = 0;
+        while(i<=10){
+            System.out.println(i);
+            i++;
+        }
+         */
+//-------------------------------------------------------------------------------------------------------------------
+        /*
+        Exercício 2 – Contagem regressiva ⭐
+        Mostre os números de 10 até 1 utilizando while.
+        Saída esperada:
+        10
+        9
+        8
+        7
+        6
+        5
+        4
+        3
+        2
+        1
+
+
+        int i = 10;
+        while(i>0){
+            System.out.println(i);
+            i--;
+        }
+*/
+//---------------------------------------------------------------------------------------------------------------------
+        /*
+        Exercício 3 – Números pares ⭐⭐
+        Mostre apenas os números pares de 0 até 20 usando while.
+        Saída esperada:
+        0
+        2
+        4
+        6
+        8
+        10
+        12
+        14
+        16
+        18
+        20
+
+
+        int n1 =0;
+        while(n1<20){
+            n1+=2;
+            System.out.println(n1);
+        }
+        */
+//----------------------------------------------------------------------------------------------------------------------
+
+                
 
     }
 }
