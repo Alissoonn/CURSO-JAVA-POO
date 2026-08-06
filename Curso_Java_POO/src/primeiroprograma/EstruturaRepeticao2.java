@@ -173,7 +173,7 @@ public class EstruturaRepeticao2 {
         Exercício 10
         Leia 10 números.Conte:
         positivos,negativos,zeros
-*/
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite 10 números");
         int[] numeros = new int[10];
@@ -199,10 +199,76 @@ public class EstruturaRepeticao2 {
         System.out.println("Temos "+positivos+" POSITIVOS");
         System.out.println("Temos "+negativos+" NEGATIVOS");
         System.out.println("Temos "+zero+" ZERO");
+*/
+//-------------------------------------------------------------------------------------------------------------------------
+
+        /*
+        Exercício 11
+        Leia 5 notas.
+        Calcule a média.
 
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite as 5 notas");
+
+        float[]notas  = new float[5];//Vetor com 5 números
+        float soma = 0;//variavel responsavel por armazenar todos os valores
 
 
+        for (int i=0; i<5 ; i++){//laço para perguntar 5x
+            notas[i]= sc.nextFloat();// Guarda o valor lido na posição 'i'
+            soma += notas[i];//Acumula a soma (soma = soma + notas[i])
+        }
+        float media = soma/5;//variavel media pega o valor da SOMA e divide por 5
+        if(media >7){
+            System.out.println("Parabens APROVADO");
+        } else if (media >=5 ) {
+            System.out.println("Esta de RECUPERAÇÃO");
+        }else {
+            System.out.println("REPROVADO");
+        }
+*/
+//--------------------------------------------------------------------------------------------------------
+
+        /*
+        Exercício 12
+        Leia 10 idades.
+        Informe:
+        maior idade
+        menor idade
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite sua idade");
+        int [] idade = new int[10];
+
+        for (int i = 0; i < 10; i++) {
+            idade[i] = sc.nextInt();
+            System.out.println("Sua idade é: " + idade[i]);
+
+            //As vezes o IF fica dentro da condição mesmo, normal
+            if (idade[i] >= 18){//Enquanto o valor de idade(que foi pro "i")for menor que 17
+                System.out.println("MAIOR DE IDADE");
+            }else {
+                System.out.println("MENOR DE IDADE");
+            }
+        }
+        */
+ //---------------------------------------------------------------------------------------------------------------
+        /*
+                                    🔵 Nível 4 — While
+            Exercício 13
+            Faça um programa que continue pedindo um número enquanto ele for positivo.
+            Quando o usuário digitar um número negativo, o programa termina.
+                     */
+
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Digite o primeiro numero: ");
+            int num1 = sc.nextInt();
+
+            while(num1 / 2 == 0){
+                System.out.println("Digite o segundo numero: ");
+            }
 
     }
 }
